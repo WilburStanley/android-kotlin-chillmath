@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:background="@drawable/curved_transparent_black_strokes">
+
+    <View
+        android:id="@+id/colorLabel"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:layout_alignTop="@id/buttonText"
+        android:layout_alignBottom="@id/buttonText"
+        android:background="@drawable/curved_right_cut_green_background"/>
+
+    <TextView
+        android:id="@+id/buttonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/colorLabel"
+        android:text="@string/addition"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:paddingVertical="15dp"
+        android:background="@drawable/curved_left_cut_white_background"/>
+</RelativeLayout>

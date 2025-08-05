@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Chill Math</string>
+    <string name="fundamentals_of_math">Fundamentals of Math</string>
+    <string name="multiplication_table">Multiplication Table</string>
+    <string name="integer_rules">Integer Rules</string>
+    <string name="endless">Endless</string>
+    <string name="games">Game</string>
+    <string name="endless_game">Endless Game</string>
+    <string name="enter">Enter</string>
+    <string name="_0">0</string>
+    <string name="_9">9</string>
+    <string name="_8">8</string>
+    <string name="_7">7</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="backspace">⌫</string>
+    <string name="decimal_point">.</string>
+    <string name="negative_sign">-</string>
+    <string name="nullString">Null</string>
+    <string name="calculation_mode">Calculation Mode</string>
+    <string name="all_of_the_above">All of the above</string>
+    <string name="division">Division</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="addition">Addition</string>
+    <string name="company_o1b">Company: O1B</string>
+</resources>

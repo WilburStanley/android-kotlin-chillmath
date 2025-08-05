@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/titleBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/dark_green"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/gold"/>
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/red"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titleBar"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="20dp"
+        android:background="@color/ivory"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="@string/games"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/endlessBtn"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/endless"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/curved_white_background_black_strokes"
+                android:alpha="1.0"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="5dp"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="@string/fundamentals_of_math"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/mathOperationsBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/multiplication_table"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/curved_white_background_black_strokes"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/integerRulesBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/integer_rules"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="5dp"
+                android:background="@drawable/curved_white_background_black_strokes"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
