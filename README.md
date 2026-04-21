@@ -24,7 +24,7 @@ An interactive and educational Android app where users solve randomly generated 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Language: Kotlin
 - Platform: Android
